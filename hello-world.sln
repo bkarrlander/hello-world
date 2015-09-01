@@ -7,9 +7,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld.Lib", "src\Hello
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld.Web", "src\HelloWorld.Web\HelloWorld.Web.csproj", "{9494F052-A8E6-4335-81C4-4C21DA96254D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld.Web.Tests", "src\tests\HelloWorld.Web.Tests\HelloWorld.Web.Tests.csproj", "{BBB6B842-833D-49FD-B1E7-FBD7D464E0BB}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{79381CB4-2C08-4232-A54B-4392E29496F3}"
+	ProjectSection(SolutionItems) = preProject
+		tests\TestsReadme.md = tests\TestsReadme.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld.Web.Tests", "tests\HelloWorld.Web.Tests\HelloWorld.Web.Tests.csproj", "{2B3D5F5D-06CB-4296-9430-A3D60998D76E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,15 +28,15 @@ Global
 		{9494F052-A8E6-4335-81C4-4C21DA96254D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9494F052-A8E6-4335-81C4-4C21DA96254D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9494F052-A8E6-4335-81C4-4C21DA96254D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BBB6B842-833D-49FD-B1E7-FBD7D464E0BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BBB6B842-833D-49FD-B1E7-FBD7D464E0BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BBB6B842-833D-49FD-B1E7-FBD7D464E0BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BBB6B842-833D-49FD-B1E7-FBD7D464E0BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B3D5F5D-06CB-4296-9430-A3D60998D76E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B3D5F5D-06CB-4296-9430-A3D60998D76E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B3D5F5D-06CB-4296-9430-A3D60998D76E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B3D5F5D-06CB-4296-9430-A3D60998D76E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{BBB6B842-833D-49FD-B1E7-FBD7D464E0BB} = {79381CB4-2C08-4232-A54B-4392E29496F3}
+		{2B3D5F5D-06CB-4296-9430-A3D60998D76E} = {79381CB4-2C08-4232-A54B-4392E29496F3}
 	EndGlobalSection
 EndGlobal
