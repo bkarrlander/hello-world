@@ -8,5 +8,6 @@ namespace HelloWorld.Lib
 {
     class newfj
     {
+
     }
 }
