@@ -8,6 +8,6 @@ namespace HelloWorld.Lib
 {
     public class Class1
     {
-        // 
+        // A comment
     }
 }
