@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HelloWorld.Lib
 {
-    class newfj
+    public class newfj
     {
 
     }
